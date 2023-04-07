@@ -1,0 +1,24 @@
+﻿小米手机 MIUI 国际版/EU 刷机教程
+https://zhuanlan.zhihu.com/p/408114647
+
+下载 ROM，从所有小米型号中开始
+https://xiaomirom.com/series/
+https://xiaomirom.com/miui-125/
+XiaomiROM.com 是一个收集小米手机、小米平板等小米机型其国行版、全球版、欧洲版（欧版）、印度版、印度尼西亚版、俄罗斯版（俄版）、土耳其版、台湾版（台版）的小米 ROM。刷机包下载链接来自小米ROM官网地址，您始终可以获得全速下载。小米官方的 MIUI 固件类型有稳定版、开发版和内测版，按刷机方式区分则包含 Fastboot 线刷包和 Recovery
+
+在关机状态下，然后同时按住【电源键】+【音量+】键，大约2-3s后，就可以进入Fastboot模式。
+
+
+
+FastBoot 刷机使用方法
+https://www.jianshu.com/p/54edc48203db
+
+
+安卓刷机 - Fastboot命令
+https://www.jianshu.com/p/c40ea4131b71
+
+各品牌机型进入fastboot模式的方法
+http://rom.7to.cn/jiaochengdetail/16929
+
+小米8刷入MIUI12国外版
+https://bugwz.com/2020/06/13/mi8-miui12-eu-rom/#%E4%B8%80%E3%80%81MIUI%E7%9B%B8%E5%85%B3%E7%89%88%E6%9C%AC
