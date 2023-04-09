@@ -1,0 +1,22 @@
+
+https://freecplus.net
+
+gdb多进程调试：
+set follow-fork-mode parent
+set follow-fork-mode child
+
+set detach-on-fork on
+set detach-on-fork off
+
+info inferiors
+inferiors <进程ID>
+
+gdb多线程调试：
+
+查看线程：info threads
+切换线程：thread 2
+
+只运行当前线程：set scheduler-locking on
+运行全部的线程：set scheduler-locking off
+指定某线程执行某gdb命令：thread apply <线程ID> cmd
+全部的线程执行某gdb命令：thread apply all cmd
