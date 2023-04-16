@@ -1,0 +1,84 @@
+微思xmws:
+https://blog.csdn.net/xmws_it/category_10346230.html
+一个好用的插件：
+插件官网：https://www.wetab.link/zh/
+seaship的博客:
+https://blog.csdn.net/seaship/category_8841455.html
+
+linux	(61篇)
+
+网络透传	(1篇)
+
+mon	(4篇)
+
+linux-yum	(10篇)
+
+linux-disk	(29篇)
+
+linux-net	(14篇)
+
+linux-Shell脚本	(12篇)
+
+linux-safe	(11篇)
+
+linux-X	(21篇)
+
+linux应用	(29篇)
+
+shell	(6篇)
+
+集群相关	(1篇)
+
+wins	(3篇)
+
+MAC机	(1篇)
+
+freebsd	(7篇)
+
+kali	(20篇)
+
+服务应用	(3篇)
+
+服务器	(6篇)
+
+存储	(4篇)
+
+华为交换机	(19篇)
+
+H3C交换机	(3篇)
+-------------------con配置web管理------------------------------------------------------------------------------
+
+1、Console线连交换机console口。
+2、CRT设置传输率：9600，数据位：8，校验方式：无，停止位：1，流控方式：无。
+3、设置管理IP
+sys
+int meth 0/0/1
+ip add 192.168.1.254 24
+quit
+4、创建VLANIF接口，并将其IP地址配置为交换机管理IP。下面是VLAN9和GE0/0/24口为例
+sys
+vlan 9
+quit
+vlanif 9
+ip add 192.168.1.254 24
+quit
+int gig 0/0/24
+port link-type access
+port default vlan 9
+quit
+
+浏览器进入https://192.168.1.254
+默认账户：admin，默认密码：admin@huawei
+登陆http://support.huawei.com/enterprise根据型号和版本号下载对应的web网管文件，名称为“产品-软件版本号.web网管文件版本号.web.7z”
+上传下载到的web网页文件，例如：“switch.web.7z”
+sys
+ftp server enable
+通过ftp上传到交换机
+ftp 192.168.1.254
+admin
+admin@huawei
+put switch.web.7z
+加载web网页文件
+http server load switch.web.7z
+quit
+save
