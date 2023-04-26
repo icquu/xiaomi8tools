@@ -1,0 +1,112 @@
+https://www.atvnk.com/6917.html
+官网地址： http://www.aida64.com/
+
+官网更新记录：https://www.aida64.com/news/pr/aida64-v688-press-release
+
+官方下载（6.88.6400）
+
+AIDA64 Extreme Edition 多语言中文版
+
+http://download.aida64.com/aida64extreme688.exe
+
+http://download.aida64.com/aida64extreme688.zip
+
+Key:
+
+1V1JU-EDYD6-36DJA-LDA94-WB3TJ
+
+USUQ4-UFGDB-HLDK8-4D8R4-48V7G
+
+1N4RU-CYGD6-5UDTU-FDAX4-CAN2Y
+
+DMY33-X4SD6-IQDJM-MDSC4-H5LWE
+
+YV4BU-4YYD6-RXDJ5-LD594-CBR66
+
+AIDA64 Business Edition 多语言中文版
+
+http://download.aida64.com/aida64business688.exe
+
+Key:
+
+3A3HY-W48DB-3KDKV-7DPC4-FG784
+
+UJF41-BRLD6-F3DJG-EDME4-FYY19
+
+3X39D-ZFQDB-38DKV-9D274-RDER2
+
+FVRKD-DU7D6-JVDTR-KD2A4-3QJJ1
+
+3W35D-8FXD6-J4DTR-MDPD4-37JRT
+
+AIDA64 Extreme Engineer Edition 多语言中文版
+
+http://download.aida64.com/aida64engineer688.exe
+
+http://download.aida64.com/aida64engineer688.zip
+
+Key:
+
+UBUP1-GR3D6-LBDJ7-6DMZ4-F4H2K
+
+4U1PU-GDHD6-8HDTL-RDA84-WRMVL
+
+DXYMF-A44D6-KYDJM-CDG24-HHLZX
+
+3E3LY-FURDB-3NDKZ-CDP54-FL7KR
+
+YPDHR-W1PD6-66DJ8-2D2H4-RGXXC
+------------------------------------------------------------
+
+HEU KMS Activator v30.2.0 正式版-全能Windows/Office激活神器
+https://www.atvnk.com/23939.html
+
+无中和wzhonghe.Com
+https://wzhonghe.com/?cat=1762
+
+Aida64-Keys：一个开源的AIDA64 序列号/激活码/算号器
+https://www.extremexbb.com/aida64-keys/
+伸手党专用编译好下载链接
+仅供学习交流，严禁用于商业用途，请于24小时内删除
+
+使用的源代码版本位于 commit 671ebf719d9af74cdaace4f4122d1caeb8dbd393
+
+我错了，才发现 115 网盘下载共享文件要登陆账号，迁移到百度网盘
+
+Windows:
+
+链接：https://pan.baidu.com/s/1y3pkvuzAnVBfufUXT_VDbA
+提取码：B6YA
+
+Linux:
+
+链接：https://pan.baidu.com/s/1beoB2waKWWLRTip8f-8pUw
+提取码：AG5Y
+Build
+我使用的环境是 Ubuntu 22.04，理应 Debian 11 也不会有什么问题
+
+# 安装 Rust 编译环境
+curl https://sh.rustup.rs -sSf | sh
+# 安装其他依赖项
+apt update
+apt install pkg-config cmake build-essential libxcb-composite0-dev libfontconfig1-dev
+# 克隆源码
+git clone https://github.com/LeagueRaINi/Aida64-Keys.git
+# 编译
+cd ./Aida64-Keys
+cargo build --verbose
+如果想要 Windows 的文件，那就继续这么弄
+
+# 安装 MinGW-w64 作为开发环境
+apt install mingw-w64
+# 添加 Windows GNU目标
+rustup target add x86_64-pc-windows-gnu
+# 编译
+cargo build --target x86_64-pc-windows-gnu
+编译成功的话，可执行文件会在这个目录里面
+
+# Linux
+./target/debug/
+# Windows
+./target/x86_64-pc-windows-gnu/debug/
+http://download.aida64.com/aida64business688.zip
