@@ -1,0 +1,9 @@
+apt install smartmontools
+smartctl -a /dev/sda
+lsblk -d -o name,rota
+
+CSDN大牛:
+https://blog.csdn.net/younger_china/article/details/130105471
+
+Linux开发:
+https://www.bilibili.com/video/BV1SM411x78H/?spm_id_from=333.337.search-card.all.click
