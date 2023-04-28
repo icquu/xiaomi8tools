@@ -2,6 +2,8 @@ apt install smartmontools
 smartctl -a /dev/sda
 lsblk -d -o name,rota
 
+学习的顺序：完全不懂时，看视频比较好，虽然慢，但容易跟上进度便于反复观看和理解。待到已经懂了之后，看笔记和文档效率很高，因为遗漏的只很细微的细节，而笔记常常会把细节记录的很好。
+
 CSDN大牛:
 https://blog.csdn.net/younger_china/article/details/130105471
 
